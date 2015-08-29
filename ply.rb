@@ -1,12 +1,12 @@
 class Ply < Formula
   desc "Dependency-less remote task runner"
   homepage "https://github.com/ebenoist/ply"
-  url "https://github.com/ebenoist/ply/archive/v0.0.1.tar.gz"
-  sha256 "91cd2454653bb0efe15d96b17c7d2bcd411e59f06c021d16af767b4b938a308c"
+  url "https://github.com/ebenoist/ply/archive/v0.0.2.tar.gz"
+  sha256 "ee4a4b7ea8b89cf3852cbf2593e2f49dbbdeb743930a7d526bc497a28a0d4709"
   skip_clean "bin"
 
   def install
-    system "mv dist/ply-osx.v0.0.1 dist/ply"
+    system "mv dist/ply-osx.v0.0.2 dist/ply"
     bin.install "dist/ply"
   end
 
